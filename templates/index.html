@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oracle Data Display</title>
+    <style>
+body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* ให้เต็มหน้าจอ */
+            margin: 0;
+            background-color: rgba(230, 230, 232, 0.464);
+        }
+
+        #container {
+            text-align: center;
+        }
+
+        .header {
+    position: fixed;
+    top: 0;
+    left: 268px;
+    width: 85%;
+    height: 20px;
+    padding: 1rem 0; /* Adjust the padding as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0.75rem 1rem 0 rgba(0, 0, 0, 0.1); /* Removed shadow on the left */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+    z-index: 1000; /* Adjust the z-index as needed */
+}
+
+.main {
+    margin-top: -1px; /* Adjust the margin-top to accommodate the header height */
+    width: 75px;
+    max-width: 300px;
+    height: 493px; /* Stretch to the full height */
+    padding: 8rem 6rem;
+    display: grid;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0.75rem 1rem 0 rgba(0, 0, 0, 0.1);
+    margin-right: auto; /* Make the div align to the left */
+    position: relative;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="main" id="main">
+   
+    </div>
+    <div class="header" id="header">
+    <h2 style="font-family:Georgia, 'Times New Roman', Times, serif;color: rgb(7, 7, 7);">Automatic Meter Reading System</h2>
+</div>
+    
+
+   
+   
+</body>
+</html>
