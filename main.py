@@ -9,7 +9,7 @@ username = 'root'
 password = 'root'
 hostname = 'localhost'
 port = '1521'
-service_name = 'orcl'
+
 
 def fetch_data(query, params=None):
     try:
